@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82922a88-1245-4620-b05d-9ba2be0a4055" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/blockchain-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_6_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionOutput.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="26" column="53" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#159#166#0" expanded="true" />
+                <element signature="e#325#352#0" expanded="true" />
+                <element signature="e#3368#3394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Block.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="85" column="23" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2130#2131#0" expanded="true" />
+                <element signature="e#2209#2210#0" expanded="true" />
+                <element signature="e#2501#2502#0" expanded="true" />
+                <element signature="e#2576#2577#0" expanded="true" />
+                <element signature="e#2753#2761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#608#626#0" expanded="true" />
+                <element signature="e#748#767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="28" />
+              <folding>
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Wallet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#1982#2000#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Wallet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Block.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockchain/example/App.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blockchain-example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blockchain-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.blockchain.example.App" />
+      <module name="blockchain-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.blockchain.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../HMRC/agent-client-mandate" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/agent-client-mandate-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/agent-client-mandate-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/agent-client-mandate-performance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/agent-client-mandate-stub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/alert-config" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ated" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ated-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/attachments" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/attachments-performance-test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs-lookup" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs-lookup-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs-lookup-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs-lookup-stub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs-performance-test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/awrs-stubs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/binding-tariff-admin-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/binding-tariff-classification" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/binding-tariff-data-transformation" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/binding-tariff-filestore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/binding-tariff-ruling-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/binding-tariff-trader-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/business-customer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/business-customer-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/business-customer-stub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/c2ni" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/c2ni-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/c2ni-performance-test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/cocar-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/cocar-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/cysp-acceptance-test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/dfs-trusts-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ei" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ei-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/eps-hods-adapter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/eps-message-renderer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/eps-perfs-test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/eps-transfer-agent" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ers-returns-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/feedback-survey-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/feedback-survey-performance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/futures" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/gmp" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/gmp-bulk" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/gmp-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/gmp-sapeak-performance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/gmp-stubs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/grafana-dashboards" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/liveservices-workshop" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ma-api-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ma-api-performance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/marriage-allowance" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/marriage-allowance-des-stub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/nisp-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/paye" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pbik" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pbik-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pbik-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pbik-performance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pbik-stub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pension-annual-allowance-calculator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pension-annual-allowance-calculator-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pension-annual-allowance-calculator-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/pertax-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/play-todo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/ras-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/repayments" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/repayments-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/repayments-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/request-corporation-tax-number" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/request-corporation-tax-number-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/request-corporation-tax-number-journey-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/request-corporation-tax-number-performance-test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/request-corporation-tax-number-stubs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/rtii-performance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tamc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tamc-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tamc-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tamc-performance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tamc-stub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tariff-classification-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-free-childcare-parent" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-free-childcare-provider" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-free-childcare-provider-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-free-childcare-stub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-summaries" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-summaries-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-summaries-agent" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-summaries-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/tax-summaries-stubs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/taxcalc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/taxcalc-acceptance-tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/taxcalc-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/totp-generator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/trusts" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HMRC/trusts-frontend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Scala" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/play-hmrc-api-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82922a88-1245-4620-b05d-9ba2be0a4055" name="Default Changelist" comment="" />
+      <created>1634728116828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634728116828</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286517" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/TransactionOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2130#2131#0" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2501#2502#0" expanded="true" />
+            <element signature="e#2576#2577#0" expanded="true" />
+            <element signature="e#2753#2761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#608#626#0" expanded="true" />
+            <element signature="e#748#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/models/Wallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#1982#2000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockchain/example/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#159#166#0" expanded="true" />
+            <element signature="e#325#352#0" expanded="true" />
+            <element signature="e#3368#3394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
